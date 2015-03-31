@@ -1,0 +1,90 @@
+/*
+a button{
+    margin: 1em;
+}
+input{
+    color: black;
+}
+.box
+{
+    display: block;
+}*/
+.sex
+{
+    background-repeat: no-repeat;
+    background-color: #5f9ab9;
+    height: 53px;
+    width: 53px;
+    margin: 20px;
+}
+.woman
+{
+    background-image: url("../images/woman.svg");
+}
+.man
+{
+    background-image: url("../images/man.svg");
+}
+img.big
+{
+    width: 100px;
+    height: 75px;
+}
+#answertext
+{
+   
+}
+.loww
+{
+    color: blue;
+}
+.normalw
+{
+    color:green;
+}
+.lhig
+{
+    color: #f84141;
+}
+.nhig
+{
+    color: #ff0101;
+}
+.hhig
+{
+    color:#8e0606;
+}
+img.small
+{
+    width: 50px;
+    height: 75px;
+}
+img.normal
+{
+    width: 75px;
+    height: 75px;
+}
+input 
+{
+    background-color: rgba(21, 16, 16, 0);
+    margin: 0.5em;
+}
+/*
+#cont-right
+{
+    max-height: 10px;
+}
+*/
+/*
+#altura 
+{
+    display: grid;
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: 300px;
+
+}
+*/

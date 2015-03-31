@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   id="svg2186"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="D:\"
+   sodipodi:docname="dibujo femenino.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2188" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.9497475"
+     inkscape:cx="44.841713"
+     inkscape:cy="4.3755929"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8" />
+  <metadata
+     id="metadata2191">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     style="display:inline">
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#d190af;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2204"
+       sodipodi:cx="25"
+       sodipodi:cy="18.071428"
+       sodipodi:rx="15"
+       sodipodi:ry="14.928572"
+       d="M 40 18.071428 A 15 14.928572 0 1 1  10,18.071428 A 15 14.928572 0 1 1  40 18.071428 z"
+       transform="matrix(0.882105,0,0,0.8863256,2.9473744,1.9828313)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#d190af;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 25,31 C 25,31.589831 25,33.124817 25,34.142857 C 25,34.857143 25,35.571429 25,36.285714 C 25,37.285714 25,38.285714 25,39.285714 C 25,40 25,40.714286 25,41.428571 C 25,42.95117 25,42.717403 25,43.857143 C 25,44.619048 25,45.380952 25,46.142857 C 25,46.285714 25,46.428571 25,46.571429"
+       id="path4198" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#d190af;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 30,41.428571 L 19.428571,41.428571 L 30,41.428571 z "
+       id="path4202" />
+  </g>
+</svg>

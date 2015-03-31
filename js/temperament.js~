@@ -1,0 +1,78 @@
+$('.carousel').carousel({
+  interval: false
+})
+
+
+var counters= [];
+counters.push(0);
+counters.push(0);
+counters.push(0);
+counters.push(0);
+var typeQuestion= 0;
+function count(value) {
+    var pos = typeQuestion % 4;
+    typeQuestion++;
+    counters[pos]+=value;
+	
+    if(typeQuestion>5)/*aca va 55*/
+    {
+        //aca va el cambio y respuesta
+		/*
+		var pos=-1;
+		var may=-1;
+		
+		for (var i = 0; i < 4; i++)
+		{
+			if(counters[i]>may)
+			{
+				may= counters[i];
+				pos= i;
+			}
+		}
+		var resp=[];
+		
+		var aux=[];
+		aux.push("#san");
+        aux.push("#col");
+        aux.push("#fle");
+        aux.push("#mel");		
+		resp.push(aux[pos]);
+		
+		for (var i = 0; i < 4; i++)
+		{
+			if(i != pos && counters[i]>may-6)
+			{
+				resp.push(aux[i]);
+			}
+		}*/
+        $("#chart-answer").removeClass('invisible');
+        $("#carousel-block").addClass('invisible');
+    var data = {    
+    labels: ["Sanguíneo", "Colérico", "Flemático", "Melancólico"],
+    datasets: [
+        {
+            label: "My First dataset",
+            fillColor: "rgba(220,220,220,0.2)",
+            strokeColor: "rgba(220,220,220,1)",
+            pointColor: "rgba(220,220,220,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [counters[0], counters[1], counters[2], counters[3]]
+        }
+    ]
+};        
+        var ctx = document.getElementById("chart-answer").getContext("2d");
+        
+        var myPieChart = new Chart(ctx).Radar(data,
+                                              {
+            responsive :true 
+        });
+		counters[0]=0;
+		counters[1]=0;
+		counters[2]=0;
+		counters[3]=0;
+        typeQuestion = 0;
+    }
+    
+}

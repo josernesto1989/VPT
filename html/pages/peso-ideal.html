@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+
+    <title>Peso Ideal</title>
+
+      <link href="../../css/peso-ideal.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/cover.css" rel="stylesheet">
+      
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Peso Ideal</h3>
+              <ul class="nav masthead-nav">
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="temperament.html">Test de Temperamento</a></li>
+                <li class="active"><a href="peso-ideal.html">Peso Ideal</a></li>
+              </ul>
+            </div>
+          </div> 
+          <p class="menu"></p>
+<div class="btn-group btn-toggle"> 
+    <!--<button class="btn btn-lg btn-default sex" value="m" id="man"></button>-->
+    <button class=" btn-lg sex woman" value="woman" id="sexBtn"></button>
+  </div>
+        <div>
+            <input type="number" id="altura" onchange="change()" placeholder="Altura en cm" required min="1" max="250" value="165"/>
+        </div>
+        <div id="first-cell">
+            <p id="altura-label" >Altura en cm</p>              
+        </div>
+        <div>
+            <input type="number" id="peso" onchange="change()" placeholder="Peso en Kg" required min="1" max="1000" value ="65"/>
+            
+        </div>
+               
+           <!-- <div id="cont-img">
+                <img id="img-peso" src="../../images/ffox.png"/>
+            </div>-->
+        <div>
+            <p id="peso-label">Peso en kg </p>
+        </div>
+            
+                    <!--<input id="buttom" type="button" value="Conoce tu estado" class="btn btn-primary btn-lg"/>       --> 
+            
+            <button class="bnt"  id="answertext">Normal</button>
+        <!--<div id="answer"></div>-->
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Universidad de Matanzas Camilo Cienfuegos.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../js/jquery-1.9.0.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/docs.min.js"></script>
+    <script src="../../js/peso-ideal.js"></script>
+  </body>
+</html>
